@@ -41,10 +41,10 @@ public class Encap_example1 {
     public static void main(String[] ars) {
         Customer12 c = new Customer12();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter id: ");
+        System.out.print("Enter id: ");
         int id = sc.nextInt();
         sc.nextLine();
-        System.out.println("Enter name: ");
+        System.out.print("Enter name: ");
         String name = sc.nextLine();
         System.out.println("Enter email: ");
         String email = sc.nextLine();
