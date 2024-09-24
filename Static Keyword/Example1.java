@@ -7,6 +7,7 @@ class Demo {
 
     static {
         System.out.println("Inside Static Block");
+
     }
 
     int x, y;
@@ -16,6 +17,7 @@ class Demo {
 
     void fun2() {
         System.out.println("Inside instance method");
+        System.out.println();
     }
 
     Demo() {
