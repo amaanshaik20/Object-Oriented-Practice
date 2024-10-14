@@ -55,11 +55,7 @@ public class Program1 {
 
         Mobile m = new Mobile();
         m.hasA(c);
-        String brand = c.getBrand();
-        float voltage = c.getVoltage();
-        System.out.println(brand);
-        System.out.println(voltage);
-
+        System.out.println();
         String chargerName = m.os.getName();
         int chargerSize = m.os.getSize();
         System.out.println(chargerName);
@@ -69,7 +65,7 @@ public class Program1 {
         // m.hasA(c);
         System.out.println(c.getBrand());
         System.out.println(c.getVoltage());
-        System.out.println(os.getName());
+        // System.out.println(os.getName());
 
     }
 

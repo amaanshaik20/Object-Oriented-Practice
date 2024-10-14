@@ -74,8 +74,8 @@ class Book {
 }
 
 class Human {
-    Heart h = new Heart(250, 72);
-    Brain b = new Brain(1250, "White");
+    Heart heart = new Heart(250, 72);
+    Brain brain = new Brain(1250, "White");
 
     public void hasABike(Bike bike) {
         System.out.println(bike.getBrand());
@@ -99,18 +99,19 @@ public class Program2 {
         human.hasABook(book);
         System.out.println();
 
-        System.out.println(human.h.getWeight());
-        System.out.println(human.h.getBpm());
+        System.out.println(human.heart.getWeight());
+        System.out.println(human.heart.getBpm());
         System.out.println();
-        System.out.println(human.b.getWeight());
-        System.out.println(human.b.getColor());
+        System.out.println(human.brain.getWeight());
+        System.out.println(human.brain.getColor());
         System.out.println();
         human = null;
 
         System.out.println(bike.getBrand());
         System.out.println(book.getName());
-
-        System.out.println(human.h.getWeight());
+        System.out.println("amaan");
+        // System.out.println(human.heart.getWeight());
+        // System.out.println(human.brain.getWeight());
 
     }
 }
