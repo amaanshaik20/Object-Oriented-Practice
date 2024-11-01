@@ -6,7 +6,6 @@ interface Demox {
     default void sub() {
         System.out.println("Subtracting...");
     }
-
     // when u give a method in interface as a default, you can writhe a method body
     // also...
     // By default the default_method is public and hence when we override this
@@ -21,6 +20,13 @@ interface Demox {
         System.out.println("Dividing");
     }
 
+    // private methods in an interface got introduced in JDK 1.9
+    // private methods in an interface are for preventing redundancy of code in a
+    // class
+    private void diff() {
+        System.out.println("Difference");
+    }
+
 }
 
 class Main implements Demox {
@@ -31,7 +37,6 @@ class Main implements Demox {
 
     @Override
     public void sub() {
-        // TODO Auto-generated method stub
         Demox.super.sub();
     }
 

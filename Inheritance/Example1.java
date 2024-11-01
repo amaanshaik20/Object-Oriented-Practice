@@ -33,7 +33,7 @@ class Child extends Parent {
 }
 
 class Child1 extends Parent {
-    @Override
+    @Overrid
     void smoke() {
         System.out.println("Child1 dont smoke...");
     }
