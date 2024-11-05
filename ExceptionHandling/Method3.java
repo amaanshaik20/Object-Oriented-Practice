@@ -20,7 +20,6 @@ class Alfa2 {
             System.out.println("Connection Closed2");
             sc.close();
         }
-
     }
 }
 

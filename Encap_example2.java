@@ -38,7 +38,6 @@ class Customer1 {
 
 public class Encap_example2 {
     public static void main(String[] args) {
-        Customer1 c = new Customer1();
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of employees: ");
         int n = sc.nextInt();
@@ -57,12 +56,12 @@ public class Encap_example2 {
             sc.nextLine();
             System.out.println("Enter Password: ");
             String pasword = sc.nextLine();
+            Customer1 c = new Customer1();
             c.setCustomerDetails(id, name, email, phone, pasword);
             array[i] = c;
         }
         System.out.println("The Customer Details are:");
         for (int i = 0; i < n; i++) {
-
             System.out.println(array[i].getcId());
             System.out.println(array[i].getcName());
             System.out.println(array[i].getcEmail());
