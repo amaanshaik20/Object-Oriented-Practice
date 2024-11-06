@@ -101,12 +101,14 @@ public class Encap_example9 {
             r.setAddress(address);
             k = 1;
         }
+        System.out.println("THE DETAILS ARE:");
+        System.out.println();
 
-        System.out.println(r.getId());
-        System.out.println(r.getName());
-        System.out.println(r.getEmail());
-        System.out.println(r.getPhone());
-        System.out.println(r.getAddress());
+        System.out.println("The id is " + r.getId());
+        System.out.println("The Name Of Restaurant is " + r.getName());
+        System.out.println("The Email of Employee is " + r.getEmail());
+        System.out.println("The Phone Number of Employee is" + r.getPhone());
+        System.out.println("The Address of Employee is " + r.getAddress());
 
     }
 

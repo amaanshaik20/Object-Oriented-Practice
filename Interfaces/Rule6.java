@@ -1,7 +1,7 @@
 package Interfaces;
 
 //  A class can implement multiple inheritance by using interface
-//  this is because there is diamond problem in it.
+//  this is because there is no diamond problem in it.
 // as interface do not has parent 
 
 interface Canteen1 {

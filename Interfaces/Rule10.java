@@ -24,7 +24,7 @@ public class Rule10 {
 
 // rule 11
 // an empty interface is called marker interface or tagged interface.
-// inbuilt interface in java is serializable.
+// inbuilt marker interface in java is serializable.
 interface Ahmed {
 
 }
