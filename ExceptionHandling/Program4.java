@@ -1,5 +1,6 @@
 package ExceptionHandling;
 
+import java.nio.channels.Pipe.SourceChannel;
 import java.util.Scanner;
 
 // There are TWo types of exceptions 
@@ -32,9 +33,21 @@ public class Program4 {
         System.out.println(c);
     }
 
+    static void CompileTimeException1() {
+        for (int i = 65; i < 70; i++) {
+            System.out.println((char) i);
+            try {
+                Thread.sleep(5000);
+            } catch (Exception e) {
+                System.out.println("EXCEPTION OCCURES");
+            }
+        }
+    }
+
     public static void main(String[] args) {
         // NASE(); // when you enter negative array size
         // AE(); // when you enter second value as zero
+        // CompileTimeException1();
 
     }
 }
