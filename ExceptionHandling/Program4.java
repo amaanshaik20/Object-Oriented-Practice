@@ -1,6 +1,5 @@
 package ExceptionHandling;
 
-import java.nio.channels.Pipe.SourceChannel;
 import java.util.Scanner;
 
 // There are TWo types of exceptions 
@@ -8,7 +7,7 @@ import java.util.Scanner;
 // checked exceptions
 // exceptions that occur during compile time are called checked exceptions
 // checked exceptions occur when some one is throwing and current method is not handling
-// examples of checked Exceptions are FileNotFoundException,SocketExxception
+// examples of checked Exceptions are InteruptedException, FileNotFoundException, SocketException
 
 // unchecked exceptions
 // exceptions that occur during run time are called unchecked exceptions
