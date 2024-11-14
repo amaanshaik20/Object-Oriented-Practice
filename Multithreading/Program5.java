@@ -1,5 +1,6 @@
 package Multithreading;
 
+// Single Run Multithreading methood
 import java.util.Scanner;
 
 class Alfa1 extends Thread {
@@ -23,6 +24,7 @@ class Alfa1 extends Thread {
         int b = sc.nextInt();
         int c = a + b;
         System.out.println(c);
+        sc.close();
     }
 
     public void charaters() {
@@ -60,8 +62,11 @@ public class Program5 {
         a1.setName("ADD");
         a2.setName("CHAR");
         a3.setName("NUM");
+
         a1.start();
+        // a1.join();
         a2.start();
+        // a2.join();
         a3.start();
     }
 }
