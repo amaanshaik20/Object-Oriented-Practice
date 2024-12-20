@@ -8,7 +8,7 @@ public class Program3 {
         System.out.println("The priority of current thread is: " + t.getPriority());
         System.out.println("current thread group is: " + t.getThreadGroup());
         System.out.println();
-        t.setName("Thread1");
+        t.setName("Amaan");
         t.setPriority(2);
         System.out.println("The name of current thread is: " + t.getName());
         System.out.println("The priority of current thread is: " + t.getPriority());

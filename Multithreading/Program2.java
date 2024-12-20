@@ -12,7 +12,7 @@ import java.util.Scanner;
 // 2-> Implementing the Runnable interface
 
 // The Second Method is ----->
-// The reason of crearing a second method that 
+// The reason of creating a second method that 
 // is by implementing a runnable interface is that
 //  in first method if a class also extends some other 
 // class other than Thread class, Its not possible 

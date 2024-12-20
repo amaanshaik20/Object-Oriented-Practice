@@ -5,19 +5,19 @@ class Demo extends Thread {
     public void run() {
         try {
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (Exception e) {
             e.getStackTrace();
         }
@@ -30,19 +30,19 @@ class Demo11 extends Thread {
         try {
 
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName() + " is executing...");
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (Exception e) {
             e.getStackTrace();
         }
@@ -56,9 +56,9 @@ public class Program4 {
         Demo d = new Demo();
         Demo11 d1 = new Demo11();
         d.start();
-        d.join();
+        // d.join();
         d1.start();
-        d1.join();
+        // d1.join();
         System.out.println(Thread.currentThread().getName() + " ended");
     }
 }
