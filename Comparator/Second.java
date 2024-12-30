@@ -46,7 +46,6 @@ class Books1 implements Comparable<Books1> {
 
     @Override
     public String toString() {
-
         return title + " " + author + " " + publication_year;
     }
 

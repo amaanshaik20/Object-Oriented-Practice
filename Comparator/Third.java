@@ -8,7 +8,6 @@ import java.util.TreeSet;
 class App implements Comparator<Books> {
     @Override
     public int compare(Books o1, Books o2) {
-        // TODO Auto-generated method stub
         String author1 = o1.getAuthor();
         String author2 = o2.getAuthor();
 
