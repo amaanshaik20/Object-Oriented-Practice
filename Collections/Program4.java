@@ -1,5 +1,6 @@
 package Collections;
 
+import java.util.Scanner;
 import java.util.TreeSet;
 
 class University implements Comparable<University> {
@@ -31,15 +32,17 @@ class University implements Comparable<University> {
 
 public class Program4 {
     public static void main(String[] args) {
-        University u1 = new University("amaan", 22, 9.50);
-        University u2 = new University("mabi", 22, 9.50);
-        University u3 = new University("hussain", 23, 9.82);
-        University u4 = new University("manish", 19, 10.00);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        sc.nextLine();
         TreeSet<University> set = new TreeSet<University>();
-        set.add(u1);
-        set.add(u2);
-        set.add(u3);
-        set.add(u4);
+        for (int i = 0; i < n; i++) {
+            String s[] = sc.nextLine().split(" ");
+            int age = Integer.parseInt(s[1]);
+            float gpa = Float.parseFloat(s[2]);
+            University u = new University(s[0], age, gpa);
+            set.add(u);
+        }
         for (University university : set) {
             System.out.println(university);
         }

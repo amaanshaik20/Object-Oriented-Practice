@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Rethrowing an exception
 class Alfa1 {
-    void demo() throws Exception {
+    void demo() {
         System.out.println("Connection Established2");
         Scanner sc = null;
         try {

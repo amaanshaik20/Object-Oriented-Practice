@@ -7,7 +7,6 @@ class Alfa {
     void demo() {
         System.out.println("Connection Established2");
         Scanner sc = null;
-
         try {
             sc = new Scanner(System.in);
             System.out.println("Enter Numerator: ");
